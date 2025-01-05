@@ -11,50 +11,71 @@ body{
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Inter';
 }
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color:hsl(0, 0%, 12%);
-    height: 60vh;
-    width: 20vw;
-    max-width: 400px;
-    border-radius: 12px;
-    text-align: center;
-    padding: 2rem;
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
 }
-.profile-pic{
-    margin-bottom: 7rem;
+.profile-image{
+    margin-bottom: 1rem;
     height: 100px;
     width: 100px;
     border-radius: 50%;
 }
+
+.name{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+
+}
+.location{
+    color: hsl(75, 94%, 57%);
+}
+.about{
+    font-size: 16px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
 h1{
     font-size: 2rem;
     margin-bottom: 20px;
 }
 p{
-    font-size: 0.875rem;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .links{
     display: flex;
-    justify-content: center;
-    align-items:center;
     flex-direction: column;
+    gap: 1rem;
 }
-.links a{
-    text-decoration: none;
+.btn{
+    background-color: hsl(0, 0%, 20%);
     color: #ffffff;
-    font-size: 1.5rem;
-    margin-top:  10px;
-
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 6px;
+}
+.btn:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
 }
 
 
-.attribution{
+
+.attribution a{
+    color:#4caf50;
+    text-decoration: none;
     margin-top: 20px;
     font-size: 1rem;
 }
