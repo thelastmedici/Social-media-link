@@ -4,7 +4,7 @@
  box-sizing: border-box;
 }
 body{
-    background-color: #121212;
+    background-color: hsl(0, 0%, 8%);
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -17,6 +17,26 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color:hsl(0, 0%, 12%);
+    height: 60vh;
+    width: 20vw;
+    max-width: 400px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 2rem;
+}
+.profile-pic{
+    margin-bottom: 7rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 0.875rem;
 }
 
 .links{
@@ -24,4 +44,17 @@ body{
     justify-content: center;
     align-items:center;
     flex-direction: column;
+}
+.links a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top:  10px;
+
+}
+
+
+.attribution{
+    margin-top: 20px;
+    font-size: 1rem;
 }
